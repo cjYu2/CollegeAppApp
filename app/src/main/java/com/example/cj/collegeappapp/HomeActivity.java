@@ -24,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         });
     }
 
+    //transition from one activity to another
     public void openActivity2() {
         Intent intent = new Intent(this, LoginActivity.class);
     }
